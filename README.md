@@ -1,4 +1,4 @@
-## Magagement System
+## Reservation System
 설명란 입력.
 
 
