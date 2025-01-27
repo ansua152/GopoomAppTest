@@ -1,11 +1,17 @@
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  let posts = '블라블라';
+
   return (
-    <div className="gray-background">
-      <img src={logo} lat="logo" />
-      <h2>Let's develop management system!</h2>
+    <div className="App">
+      <div className="black-nav">
+        <div>Reservation System</div>
+      </div>
+      <h4> { posts } </h4>
     </div>
   );
 }
